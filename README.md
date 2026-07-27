@@ -1,4 +1,17 @@
-# 🤖 Telegram Bot CC Checker
+### ☁️ Deploy on Heroku
+
+<div align="center">
+
+[![Deploy On Heroku](https://img.shields.io/badge/Deploy%20To%20Heroku-6366f1?style=for-the-badge&logo=heroku&logoColor=white)](https://dashboard.heroku.com/new?template=https://github.com/SimpleXinno/telegram-bot-cc-checker-)
+
+</div>
+
+---
+
+
+
+
+# 🤖 Telegram Bot CC Check
 
 <div align="center">
 
