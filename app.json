@@ -1,32 +1,22 @@
 {
-  "name": "telegram-php-bot",
-  "description": "PHP Telegram Bot",
-  "repository": "https://github.com/yourusername/your-repo",
+  "name": "telegram-bot",
+  "description": "A Telegram bot application",
+  "repository": "",
+  "logo": "",
   "keywords": [
-    "php",
     "telegram",
-    "bot"
+    "bot",
+    "python"
   ],
   "env": {
     "BOT_TOKEN": {
-      "description": "Telegram Bot Token",
+      "description": "Your Telegram Bot API token",
       "required": true
-    },
-    "DB_HOST": {
-      "description": "Database host",
-      "required": true
-    },
-    "DB_USER": {
-      "description": "Database username",
-      "required": true
-    },
-    "DB_PASSWORD": {
-      "description": "Database password",
-      "required": true
-    },
-    "DB_NAME": {
-      "description": "Database name",
-      "required": true
-    },
-  "addons": []
     }
+  },
+  "buildpacks": [
+    {
+      "url": "heroku/python"
+    }
+  ]
+}
