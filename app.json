@@ -27,12 +27,6 @@
     "DB_NAME": {
       "description": "Database name",
       "required": true
-    }
-  },
-  "formation": {
-    "worker": {
-      "quantity": 1
-    }
-  },
+    },
   "addons": []
-}
+    }
