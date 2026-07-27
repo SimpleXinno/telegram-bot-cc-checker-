@@ -4,6 +4,10 @@ WORKDIR /app
 
 COPY . .
 
-RUN php -v
+RUN apt-get update && apt-get install -y \
+    libzip-dev \
+    unzip \
+    git \
+ && docker-php-ext-install mysqli
 
 CMD ["php", "index.php"]
